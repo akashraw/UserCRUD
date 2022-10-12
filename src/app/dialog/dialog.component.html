@@ -1,0 +1,24 @@
+<h1 mat-dialog-title> Add User </h1>
+<div mat-dialog-content style="overflow:visible;">
+    <form [formGroup]="addUserForm" ngNativeValidate (ngSubmit)="addUser()">
+        <mat-form-field appearance="outline">
+            <mat-label>User name</mat-label>
+            <input matInput formControlName="name" required="" placeholder="Name">
+            <mat-icon matSuffix>account_circle</mat-icon>
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email" required="" placeholder="Email">
+            <mat-icon matSuffix>email</mat-icon>
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Mobile Number</mat-label>
+            <input matInput formControlName="mobile" required="" placeholder="Mobile Number">
+            <mat-icon matSuffix>call</mat-icon>
+          </mat-form-field>
+          <div mat-dialog-actions [align]="'center'">
+            <button mat-raised-button color="primary" type="submit">{{autoBtn}}</button>
+            <button mat-raised-button mat-dialog-close="close" color="warn"> Close </button>
+          </div>
+    </form>
+</div>

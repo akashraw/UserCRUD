@@ -1,0 +1,106 @@
+{
+  "registeredUser": [
+    {
+      "id": 1,
+      "name": "nice",
+      "email": "asda",
+      "password": "1234",
+      "mobile": "24112a"
+    },
+    {
+      "name": "admin",
+      "email": "admin@admin.com",
+      "password": "123123",
+      "mobile": "12312312312",
+      "id": 2
+    },
+    {
+      "name": "admins",
+      "email": "admin",
+      "password": "123",
+      "mobile": "2341241",
+      "id": 3
+    },
+    {
+      "name": "gag",
+      "email": "gag",
+      "password": "123",
+      "mobile": "356262",
+      "id": 4
+    }
+  ],
+  "userList": [
+    {
+      "id": 6,
+      "name": "asfafasfasfasfasf",
+      "email": "hdfhjfdgjhfg",
+      "mobile": "63463"
+    },
+    {
+      "id": 7,
+      "name": "asdasdas",
+      "email": "sdgfcv",
+      "mobile": "3541541"
+    },
+    {
+      "id": 8,
+      "name": "asafasfasf",
+      "email": "gsdgsdgsdg",
+      "mobile": "142141"
+    },
+    {
+      "id": 9,
+      "name": "asfdasfas",
+      "email": "asfasfasfa",
+      "mobile": "41241"
+    },
+    {
+      "id": 10,
+      "name": "hfghfdgjfdgj",
+      "email": "asfasfas",
+      "mobile": "4124124"
+    },
+    {
+      "name": "tannu",
+      "email": "fdhgsdh",
+      "mobile": "32525252",
+      "id": 11
+    },
+    {
+      "name": "rahul",
+      "email": "hgfdhds",
+      "mobile": "3523463426",
+      "id": 12
+    },
+    {
+      "name": "ra",
+      "email": "ara",
+      "mobile": "352521",
+      "id": 13
+    },
+    {
+      "name": "aakkicoool",
+      "email": "gsdgdhgad",
+      "password": "123",
+      "mobile": "151325415",
+      "id": 14
+    },
+    {
+      "name": "aakkicoool",
+      "email": "asfasfgasfgas",
+      "password": "123",
+      "mobile": "+919582920013",
+      "id": 15
+    },
+    {
+      "name": "gag",
+      "email": "gag",
+      "password": "123",
+      "mobile": "356262",
+      "id": 16
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

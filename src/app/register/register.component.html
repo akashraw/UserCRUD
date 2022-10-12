@@ -1,0 +1,21 @@
+
+<form id="sign" [formGroup]="registerForm" (ngSubmit)="signUp()">
+    <h3 style="color: #ffff;">Register User Here</h3>
+
+    <label >Username</label>
+    <input formControlName="name" type="text" required placeholder="User name" id="username">
+
+    <label >Email</label>
+    <input formControlName="email" type="text" required placeholder="Email" id="email">
+
+    <label >Mobile</label>
+    <input formControlName="mobile" type="text" required placeholder="Mobile" id="mobile">
+
+    <label >Password</label>
+    <input formControlName="password" type="password" required placeholder="Password" id="password">
+
+    <button type="submit">Register User</button>
+    <div class="signin">Have a have account already?
+      <a routerLink="/login">login Now</a>
+    </div>
+</form>

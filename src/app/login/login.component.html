@@ -1,0 +1,16 @@
+
+<form id="sign" [formGroup]="loginForm" (ngSubmit)="loginUser()">
+
+    <h3 style="color: #ffff;">Login Here</h3>
+
+    <label >Email</label>
+    <input formControlName="email" required="" type="text" placeholder="Enter email ID" id="email">
+
+    <label >Password</label>
+    <input formControlName="password" required="" type="password" placeholder="Password" id="password">
+
+    <button type="submit">Log In</button>
+    <div class="signup">Don't have account?
+      <a routerLink="/register">Register Now</a>
+    </div>
+</form>
